@@ -12,7 +12,6 @@ body {
 }
 
 .principal {
-    padding: 5%;
     display: flex;
     flex-wrap: wrap;
     width: 328.88px;
@@ -57,47 +56,67 @@ body {
     font-weight: 700;
     font-size: 8px;
     color: #FFFFFF;
-
 }
 
 .cadastrar {
-    width: 167px;
-    height: 25px;
-    left: 104px;
-    top: 314px;
     background: #1b1a1a;
     border-radius: 5px;
-    cursor: pointer;
     border-style: none;
     color: #FFFFFF;
+    cursor: pointer;
+    height: 25px;
+    margin: 3% 0 4% 0;
+    width: 167px;
+}
+
+.titulo{
+    margin: 5% 0 0 0;
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
 }
 
 .lista {
+    align-items: center;
+    background: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    height: 289px;
     margin: 0;
-    padding: 1%;
+    padding: 1% 0;
+    width: 328.88px;
 }
 
 .item {
-    list-style: none;
-    padding: 0.6em 2em;
-    background: #FFFFFF;
-    border-radius: 10px;
-    margin: 0 0 1em;
-    width: 100%;
-    box-sizing: border-box;
-    display: inline-flex;
     align-items: center;
-    gap: 1em;
-    font-size: 20px;
+    background: #C8C4C4;
+    border-radius: 5px;
+    display: flex;
+    height: 23px;
+    gap: 5px;
+    margin: 3% 0;
+    width: 221px;
+    text-align: center;
+    color: #000000;
+
+
 }
 
 .item strong {
+    margin: 0 0 0 4%;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 40px;
     height: 40px;
     font-weight: 400;
+    width: 18px;
+    height: 18px;
+    background: #161515;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 18px;
+    color: #FFFFFF;
+
 }
 
