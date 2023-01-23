@@ -1,63 +1,75 @@
-html {
+body {
+    font-family: 'Inter';
     background: #edf0f0;
-    height: 100%;
-    font-family: 'Roboto', cursive;
 }
 
 .conteudo {
+    background: #FFFFFF;
     padding: 2% 2%;
     display: flex;
-    align-items:stretch;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .principal {
-    background: #515da4;
-    border-radius: 10px;
-    box-sizing: border-box;
+    padding: 5%;
     display: flex;
     flex-wrap: wrap;
+    width: 328.88px;
+    background: #7F898C;
+    border-radius: 10px;
     margin: 0;
-    min-width: 400px;
-    padding: 1em;
 }
 
 .mochila {
     display: flex;
     justify-content: center;
-
     
 }
 
 .img-vacation{
     width: 60%;
+    border-radius: 18px;
+    padding: 4%;
+    
 }
-
-label {
-    color: white;
-}
-
 
 .adicionar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
     width: 100%;
+    gap: 5px;
+    
 }
 
-.adicionar input {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0.5em 0 1em;
-    padding: 1em 0.5em;
-    border-radius: 10px;
-    border: 2px solid #93858e;
+.input {
+    width: 267.02px;
+    height: 23px;
+    background: #FFFAFA;
+    border-radius: 5px;
+    border-style: none;
 }
 
 .adicionar label {
-    display: block;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 8px;
+    color: #FFFFFF;
+
 }
 
 .cadastrar {
-    background-color: #ab92a1;
-    color: #FFFFFF;
+    width: 167px;
+    height: 25px;
+    left: 104px;
+    top: 314px;
+    background: #1b1a1a;
+    border-radius: 5px;
     cursor: pointer;
+    border-style: none;
+    color: #FFFFFF;
 }
 
 .lista {
