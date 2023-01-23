@@ -1,0 +1,91 @@
+html {
+    background: #edf0f0;
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+    padding: 2% 2%;
+    display: flex;
+    align-items:stretch;
+}
+
+.principal {
+    background: #515da4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    min-width: 400px;
+    padding: 1em;
+}
+
+.mochila {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.img-vacation{
+    width: 60%;
+}
+
+label {
+    color: white;
+}
+
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #93858e;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: #ab92a1;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 1%;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-weight: 400;
+}
+
