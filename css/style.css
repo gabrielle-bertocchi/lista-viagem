@@ -121,6 +121,9 @@ body {
 
 footer {
     text-align: center;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0;
 }
 footer a{
     text-decoration: none;
