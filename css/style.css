@@ -117,6 +117,12 @@ body {
     font-size: 10px;
     line-height: 18px;
     color: #FFFFFF;
+}
 
+footer {
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
 }
 
