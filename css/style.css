@@ -1,10 +1,10 @@
 body {
     font-family: 'Inter';
-    background: #edf0f0;
+    background: #7F898C;
+    
 }
 
 .conteudo {
-    background: #FFFFFF;
     padding: 2% 2%;
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +23,7 @@ body {
 .mochila {
     display: flex;
     justify-content: center;
+    margin: 5% 0;
     
 }
 
@@ -54,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 8px;
+    font-size: 11px;
     color: #FFFFFF;
 }
 
@@ -67,6 +68,8 @@ body {
     height: 25px;
     margin: 3% 0 4% 0;
     width: 167px;
+    font-size: 15px;
+
 }
 
 .titulo{
@@ -84,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 289px;
-    margin: 0;
+    margin: 5% 0;
     padding: 1% 0;
     width: 328.88px;
 }
@@ -100,8 +103,6 @@ body {
     width: 221px;
     text-align: center;
     color: #000000;
-
-
 }
 
 .item strong {
