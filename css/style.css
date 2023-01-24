@@ -83,10 +83,9 @@ body {
 
 .lista {
     align-items: center;
-    background: #FCFCFC;
     display: flex;
     flex-direction: column;
-    height: 289px;
+    height: auto;
     margin: 5% 0;
     padding: 1% 0;
     width: 328.88px;
@@ -94,13 +93,13 @@ body {
 
 .item {
     align-items: center;
-    background: #C8C4C4;
+    background: #FFFAFA;
     border-radius: 5px;
     display: flex;
     height: 23px;
     gap: 5px;
     margin: 3% 0;
-    width: 221px;
+    width: 267.02px;
     text-align: center;
     color: #000000;
 }
