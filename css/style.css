@@ -3,7 +3,7 @@ body {
     background: #7F898C;
     
 }
-
+  
 .conteudo {
     padding: 2% 2%;
     display: flex;
@@ -73,7 +73,7 @@ body {
 }
 
 .titulo{
-    margin: 5% 0 0 0;
+    margin: 2% 0 0 0;
     text-decoration: line-through;
     font-weight: 700;
     font-size: 13px;
@@ -107,8 +107,6 @@ body {
 .item strong {
     margin: 0 0 0 4%;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
     font-weight: 400;
     width: 18px;
     height: 18px;
@@ -120,12 +118,91 @@ body {
 }
 
 footer {
-    text-align: center;
+    bottom: 0;
+    color: #FFF;
     font-size: 13px;
-    text-align: center;
+    line-height: 30px;
     padding: 20px 0;
+    text-align: center;
+    width: 100%;
 }
+
 footer a{
     text-decoration: none;
 }
+
+@media (min-width: 1280px) {
+
+    body{
+        margin: 0 5%;
+    }
+    
+    .conteudo {
+        align-items: center;
+        display: flex;
+        flex-wrap:nowrap;
+        margin: 5% 0;
+        width: auto;
+    }
+
+    .principal {
+        justify-content: center;
+        padding: 0 3%;
+        width: auto;
+
+    }
+
+    .img-vacation{
+        width: 430px;
+        height: 419px;
+    }
+
+    .input {
+        width: 497px;
+        height: 42px;
+    }
+    
+    .adicionar label {
+        line-height: 24px;
+        font-size: 20px;
+    }
+
+    .cadastrar {
+        width: 186px;
+        height: 63px;
+        font-size: 24px;
+    }        
+    
+    .titulo{
+        font-size: 24px;
+        line-height: 20px;
+        margin: 0;
+    }
+    
+    .lista {
+        margin: 0;
+        padding: 0 3%;
+        width: 100%;
+    }
+
+    .item {
+        height: 52px;
+        width: 586px;
+        font-size: 22px;
+    }
+    
+    .item strong {
+        width: 41.66px;
+        height: 43.07px;
+        font-size: 20px;
+        line-height: 41px;
+    }
+
+    footer {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+  }
+
 
